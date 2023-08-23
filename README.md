@@ -8,9 +8,9 @@ This project involves leveraging Python's Beautiful Soup library to scrape the S
 
 This initiative encompasses two vital aspects:
 
-1. **Scraping Restaurant Details (webScraping.py):** In this module, the script focuses on efficiently gathering comprehensive restaurant information from the Swiggy website.
+1. **Scraping Restaurant Details (Swiggy_scraping.py):** In this module, the script focuses on efficiently gathering comprehensive restaurant information from the Swiggy website.
 
-2. **Scraping Menu Details (zomato_menu.py):** This component delves into extracting intricate menu specifics and their corresponding prices for each restaurant.
+2. **Scraping Menu Details (Swiggy_scraping.py):** This component delves into extracting intricate menu specifics and their corresponding prices for each restaurant.
 
 ## Files and Data
 
