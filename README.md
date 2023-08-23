@@ -1,30 +1,49 @@
-# Swiggy_restuarant_menu_scraping
-Scraping Swiggy website for Restuarant and Menu details
+# Swiggy Restaurant Menu Scraping
 
-This project deals with 2 aspects
+This project involves leveraging Python's Beautiful Soup library to scrape the Swiggy website, capturing restaurant and menu details for analysis.
 
-  1)Scraping Swiggy website for restuarant details (webScraping.py)
-  
-  2)Scraping menu details and price offered by each restuarant (zomato_menu.py)
-  
-## bangalore_links.csv
-    1)List of Links for all restuarant in Bangalore (will include the file on how to fetch all the links later)
-  
-## Swiggy_menu_data.csv
+![swiggy](https://github.com/96harsh52/Swiggy_restuarant_menu_scraping/assets/36518896/e8929b8d-e30a-4993-83a2-deedabce3dbe)
 
-This file contains data like:
+## Project Overview
 
-    1)Restuarant_name
-    2)Food Types
-    3)Cuisine Name
-    4)Price
- 
-## Swiggy_restuarant_data.csv
+This initiative encompasses two vital aspects:
 
-    1)Restuarant Name
-    2)Restuarant Type
-    3)Rating Data
-    4)Cost for 2 people
-    5)Location
-    6)Offer's
-   
+1. **Scraping Restaurant Details (webScraping.py):** In this module, the script focuses on efficiently gathering comprehensive restaurant information from the Swiggy website.
+
+2. **Scraping Menu Details (zomato_menu.py):** This component delves into extracting intricate menu specifics and their corresponding prices for each restaurant.
+
+## Files and Data
+
+- **bangalore_links.csv:** This file holds an essential list of restaurant links within Bangalore.
+
+- **Swiggy_menu_data.csv:** This file contains an organized dataset featuring the following:
+
+  - Restaurant Name
+  - Food Types
+  - Cuisine Name
+  - Price
+
+- **Swiggy_restaurant_data.csv:** This file provides an insightful snapshot of restaurant-centric data:
+
+  - Restaurant Name
+  - Restaurant Type
+  - Rating Data
+  - Cost for 2 people
+  - Location
+  - Offers
+
+## Tools Utilized
+
+- Python: The programming language serving as the foundation for the project.
+- Beautiful Soup: A web scraping library enabling the extraction of structured data from web pages.
+
+## Setup
+
+1. Begin by cloning this repository onto your local machine.
+2. Ensure Python and Beautiful Soup are correctly installed.
+3. Execute the `webScraping.py` and `zomato_menu.py` scripts to start the extraction of restaurant and menu details.
+
+## Usage
+
+1. Utilize the provided `bangalore_links.csv` file to access restaurant links.
+2. Run the designated Python scripts to initiate the scraping process for restaurant and menu information.
